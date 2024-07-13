@@ -1,9 +1,9 @@
-const Course = () => {
+const Home = () => {
   return (
-    <div className="p-4 text-xl">
-      <h1 className="text-xl">Home</h1>
+    <div>
+      <div>Home Page</div>
     </div>
   );
 };
 
-export default Course;
+export default Home;
