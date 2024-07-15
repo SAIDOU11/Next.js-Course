@@ -1,5 +1,5 @@
-const ProductDetails = ({ params }: { params: { productId: string } }) => {
-  return <h1>Details about product {params.productId} </h1>;
+const DetailProduct = ({ params }: { params: { productId: string } }) => {
+  return <h1>Detail about product {params.productId} </h1>;
 };
 
-export default ProductDetails;
+export default DetailProduct;

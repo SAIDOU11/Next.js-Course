@@ -1,12 +1,14 @@
-const ProductList = () => {
+import React from "react";
+
+const Products = () => {
   return (
     <div>
-      <h1>Product List</h1>
-      <p>Product 1</p>
-      <p>Product 2</p>
-      <p>Product 3</p>
+      <h1>Product list</h1>
+      <h2>Product 1</h2>
+      <h2>Product 2</h2>
+      <h2>Product 3</h2>
     </div>
   );
 };
 
-export default ProductList;
+export default Products;
