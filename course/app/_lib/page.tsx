@@ -1,5 +1,5 @@
 const PrivateRoute = () => {
-  return <h1>You can not see this in the browser</h1>;
+  return <h1>Private can not be seen in the browser</h1>;
 };
 
 export default PrivateRoute;

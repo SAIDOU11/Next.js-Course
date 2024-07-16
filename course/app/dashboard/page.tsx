@@ -1,5 +1,5 @@
 const BarChart = () => {
-  return <h1>BarChart</h1>;
+  return <h1>Bar chart</h1>;
 };
 
 const Dashboard = () => {

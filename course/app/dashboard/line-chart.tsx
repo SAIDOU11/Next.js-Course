@@ -1,5 +1,5 @@
-const LineChart = () => {
-  return <div>Line chart</div>;
+const lineChart = () => {
+  return <div>lineChart</div>;
 };
 
-export default LineChart;
+export default lineChart;
