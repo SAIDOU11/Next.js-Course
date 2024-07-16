@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 
-const ReviewDetail = ({
+const ReviewDeatil = ({
   params,
 }: {
   params: {
@@ -13,9 +13,9 @@ const ReviewDetail = ({
   }
   return (
     <h1>
-      Review {params.reviewId} for product {params.productId}
+      Review {params.reviewId} for product number {params.productId}.
     </h1>
   );
 };
 
-export default ReviewDetail;
+export default ReviewDeatil;
