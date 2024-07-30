@@ -1,4 +1,5 @@
 import React from "react";
+import { notFound } from "next/navigation";
 
 const ReviewsId = ({
   params,
@@ -8,6 +9,9 @@ const ReviewsId = ({
     reviewsId: string;
   };
 }) => {
+  if (parseInt(params.reviewsId) > 1000) {
+    notFound();
+  }
   return (
     <div>
       <h1>
