@@ -1,7 +1,5 @@
 import React from "react";
 import { Metadata } from "next";
-import { time } from "console";
-import { resolve } from "path";
 
 type Props = {
   params: {
@@ -14,8 +12,8 @@ export const generateMetadata = async ({
 }: Props): Promise<Metadata> => {
   const title = await new Promise((resolve) => {
     setTimeout(() => {
-      resolve(`Iphone ${params.productId}`);
-    }, 1000);
+      resolve(`${params.productId}`);
+    }, 2000);
   });
   return {
     title: `Product ${title}`,
