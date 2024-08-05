@@ -23,7 +23,9 @@ export const generateMetadata = async ({
 const ProducDetails = ({ params }: Props) => {
   return (
     <div>
-      <h1>Product {params.productId} Details.</h1>
+      <h1 className="text-3xl font-bold">
+        Product {params.productId} Details.
+      </h1>
     </div>
   );
 };

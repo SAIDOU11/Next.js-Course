@@ -1,7 +1,7 @@
 import React from "react";
 import { notFound } from "next/navigation";
 
-const ReviewsId = ({
+const ReviewDetail = ({
   params,
 }: {
   params: {
@@ -14,11 +14,11 @@ const ReviewsId = ({
   }
   return (
     <div>
-      <h1>
+      <h1 className="text-3xl font-bold mb-5">
         Reviews {params.reviewsId} for product {params.productId}.
       </h1>
     </div>
   );
 };
 
-export default ReviewsId;
+export default ReviewDetail;
